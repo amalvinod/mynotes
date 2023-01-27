@@ -101,7 +101,7 @@ class _CreateUpdateNoteViewState extends State<CreateUpdateNoteView> {
               if (_note == null || text.isEmpty) {
                 await showCannotShareEmptyDialog(context);
               } else {
-                //   Share.share(text);
+                //   Share.share(text); find a older version
               }
             },
             icon: const Icon(Icons.share),
